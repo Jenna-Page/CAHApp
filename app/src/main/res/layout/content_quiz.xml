@@ -25,9 +25,11 @@ tools:context="com.example.jenna.cahapp.Quiz">
     android:layout_height="wrap_content"
     android:id="@+id/progressBar"
     android:layout_alignParentBottom="true"
+    android:layout_marginBottom="73dp"
+    android:layout_toRightOf="@+id/button19"
     android:layout_alignRight="@+id/quiz_page"
     android:layout_alignEnd="@+id/quiz_page"
-    android:layout_marginBottom="73dp" />
+    android:indeterminate="false" />
 
 <Button
     style="?android:attr/buttonStyleSmall"
@@ -38,6 +40,14 @@ tools:context="com.example.jenna.cahapp.Quiz">
     android:layout_alignBottom="@+id/progressBar"
     android:layout_alignParentLeft="true"
     android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:id="@+id/button19"
+        android:layout_above="@+id/button"
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>
 
